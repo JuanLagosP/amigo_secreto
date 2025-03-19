@@ -1,12 +1,6 @@
-<h1 align="center"> Amigo Secreto </h1>
-<p align="left">
-  <img src="https://img.shields.io/badge/Version%201.0-green">
-  <img src="https://img.shields.io/github/stars/juanlagosp?style=social">
-</p>
+<h1 align="center">Amigo Secreto</h1>
 
 <p>¡Este sitio te permite añadir tu lista de amigos y sortearlos para un intercambio o cualquier otra fecha especial!</p>
-
-<h1 align="center">Amigo Secreto</h1>
 
 ## 📌 Índice
 1. [🎖 Insignias](#-insignias)
@@ -20,7 +14,7 @@
 
 ## 🎖 Insignias
 ![Versión](https://img.shields.io/badge/versión-1.0-blue)
-![Estrellas GitHub](https://img.shields.io/github/stars/JuanLagosP/amigo-secreto?style=social)
+![Estrellas GitHub](https://img.shields.io/github/stars/JuanLagosP/amigo_secreto?style=social)
 
 ---
 
