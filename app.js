@@ -1,4 +1,31 @@
 // Array para almacenar nombres de amigos
+<<<<<<< HEAD
+let amigos = [];
+=======
+<<<<<<< HEAD
+let nombres = [];
+>>>>>>> 4e89995 (Se añadió método para limpiar lista al sortear el amigo secreto)
+
+
+function agregarAmigo() {
+    let nombre = document.getElementById('amigo').value;
+
+    if (nombre.trim() == '' || nombre.trim().match('\^\\d+$')) {
+        alert('¡Por favor, ingrese un nombre válido!');
+    } else {
+        if(amigos.includes(nombre)) {
+            alert('¡El nombre ya se encuentra registrado!');
+        } else {
+            amigos.push(nombre);
+            actualizarListaAmigos();
+        }
+    }
+
+    limpiarInput();
+}
+<<<<<<< HEAD
+=======
+=======
 let amigos = [];
 
 
@@ -18,6 +45,7 @@ function agregarAmigo() {
 
     limpiarInput();
 }
+>>>>>>> 4e89995 (Se añadió método para limpiar lista al sortear el amigo secreto)
 
 function limpiarInput() {
     document.getElementById('amigo').value = '';
@@ -52,3 +80,7 @@ function sortearAmigo() {
     }
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> d7906cd (Se añadió método para limpiar lista al sortear el amigo secreto)
+>>>>>>> 4e89995 (Se añadió método para limpiar lista al sortear el amigo secreto)
