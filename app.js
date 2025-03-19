@@ -1,17 +1,30 @@
 // Array para almacenar nombres de amigos
-let nombres = [];
+let amigos = [];
 
 
 function agregarAmigo() {
-    let input = document.getElementById('amigo').value;
+    let nombre = document.getElementById('amigo').value;
 
-    if (input.trim() == '' || input.trim().match('\^\\d+$')) {
+    if (nombre.trim() == '' || nombre.trim().match('\^\\d+$')) {
         alert('¡Por favor, ingrese un nombre válido!');
     } else {
-        if(nombres.includes(input)) {
+        if(amigos.includes(nombre)) {
             alert('¡El nombre ya se encuentra registrado!');
         } else {
-            nombres.push(input);
+            amigos.push(nombre);
+            actualizarListaAmigos();
         }
     }
 }
+
+
+function actualizarListaAmigos() {
+    let lista = document.getElementById('listaAmigos');
+    
+    lista.innerHTML = '';
+    
+    amigos.forEach(nombre => {
+        lista.innerHTML += `<li>${nombre}</li>`;
+    });
+}
+
