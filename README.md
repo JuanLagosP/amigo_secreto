@@ -1,6 +1,8 @@
 <h1 align="center">Amigo Secreto</h1>
 
-<p>¡Este sitio te permite añadir tu lista de amigos y sortearlos para un intercambio o cualquier otra fecha especial!</p>
+<p align="center">¡Este sitio te permite añadir tu lista de amigos y sortearlos para un intercambio o cualquier otra fecha especial!</p>
+
+---
 
 ## 📌 Índice
 1. [🎖 Insignias](#-insignias)
