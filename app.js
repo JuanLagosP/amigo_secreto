@@ -1,10 +1,18 @@
 // Array para almacenar nombres de amigos
 <<<<<<< HEAD
+<<<<<<< HEAD
 let amigos = [];
 =======
 <<<<<<< HEAD
 let nombres = [];
 >>>>>>> 4e89995 (Se añadió método para limpiar lista al sortear el amigo secreto)
+=======
+<<<<<<< HEAD
+let nombres = [];
+=======
+let amigos = [];
+>>>>>>> d26819f (Se creó método para actualizar listado de amigos)
+>>>>>>> 2977ccf (Conflictos resueltos y merge de develop en main)
 
 
 function agregarAmigo() {
@@ -24,7 +32,10 @@ function agregarAmigo() {
     limpiarInput();
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2977ccf (Conflictos resueltos y merge de develop en main)
 =======
 let amigos = [];
 
@@ -59,12 +70,21 @@ function actualizarListaAmigos() {
     let lista = document.getElementById('listaAmigos');
     
     limpiarLista();
+=======
+
+
+function actualizarListaAmigos() {
+    let lista = document.getElementById('listaAmigos');
+    
+    lista.innerHTML = '';
+>>>>>>> d26819f (Se creó método para actualizar listado de amigos)
     
     amigos.forEach(nombre => {
         lista.innerHTML += `<li>${nombre}</li>`;
     });
 }
 
+<<<<<<< HEAD
 function sortearAmigo() {
     let longitudLista = amigos.length;
 
@@ -83,4 +103,9 @@ function sortearAmigo() {
 <<<<<<< HEAD
 =======
 >>>>>>> d7906cd (Se añadió método para limpiar lista al sortear el amigo secreto)
+<<<<<<< HEAD
 >>>>>>> 4e89995 (Se añadió método para limpiar lista al sortear el amigo secreto)
+=======
+=======
+>>>>>>> d26819f (Se creó método para actualizar listado de amigos)
+>>>>>>> 2977ccf (Conflictos resueltos y merge de develop en main)
