@@ -72,6 +72,9 @@ function actualizarListaAmigos() {
     limpiarLista();
 =======
 
+function limpiarInput() {
+    document.getElementById('amigo').value = '';
+}
 
 function actualizarListaAmigos() {
     let lista = document.getElementById('listaAmigos');
