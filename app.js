@@ -66,6 +66,7 @@ function limpiarLista() {
     document.getElementById('listaAmigos').innerHTML = '';
 }
 
+<<<<<<< HEAD
 function actualizarListaAmigos() {
     let lista = document.getElementById('listaAmigos');
     
@@ -81,6 +82,12 @@ function actualizarListaAmigos() {
     
     lista.innerHTML = '';
 >>>>>>> d26819f (Se creó método para actualizar listado de amigos)
+=======
+function actualizarListaAmigos() {
+    let lista = document.getElementById('listaAmigos');
+    
+    limpiarLista();
+>>>>>>> d819ac9 (Se creó método para sortear amigo secreto y mostrar el resultado)
     
     amigos.forEach(nombre => {
         lista.innerHTML += `<li>${nombre}</li>`;
@@ -88,6 +95,9 @@ function actualizarListaAmigos() {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d819ac9 (Se creó método para sortear amigo secreto y mostrar el resultado)
 function sortearAmigo() {
     let longitudLista = amigos.length;
 
@@ -104,11 +114,19 @@ function sortearAmigo() {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f62b849 (Conflictos resueltos y merge de develop en main)
 >>>>>>> d7906cd (Se añadió método para limpiar lista al sortear el amigo secreto)
 <<<<<<< HEAD
 >>>>>>> 4e89995 (Se añadió método para limpiar lista al sortear el amigo secreto)
 =======
 =======
 >>>>>>> d26819f (Se creó método para actualizar listado de amigos)
+<<<<<<< HEAD
 >>>>>>> 2977ccf (Conflictos resueltos y merge de develop en main)
+=======
+=======
+>>>>>>> d819ac9 (Se creó método para sortear amigo secreto y mostrar el resultado)
+>>>>>>> f62b849 (Conflictos resueltos y merge de develop en main)
